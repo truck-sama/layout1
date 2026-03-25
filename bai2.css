@@ -1,0 +1,179 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  background: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background: white;
+}
+
+.header {
+  background: #2c4f7c;
+  color: white;
+  padding: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.slogan {
+  font-size: 12px;
+  margin: 0;
+}
+
+.right-header {
+  text-align: right;
+}
+
+.search {
+  height: 50%;
+  margin-bottom: 8px;
+}
+
+.search input {
+  padding: 5px;
+  background-color: #18324f;
+}
+
+.search input::placeholder {
+  color: white;
+}
+
+.search button {
+  color: white;
+  background-color: #18324f;
+
+  padding: 5px 10px;
+}
+
+.menu {
+  height: 50%;
+
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  padding: 10px;
+  background: #3d6ea8;
+  color: white;
+  text-decoration: none;
+  margin-left: 9px;
+  font-weight: bolder;
+}
+
+.menu a:hover {
+  background: #5a8fd1;
+}
+
+.content {
+  display: flex;
+  padding: 15px;
+}
+
+.left {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.middle {
+  margin-left: 100px;
+  display: inline-block;
+  width: 30%;
+}
+
+.content-left {
+  width: 70%;
+}
+
+.content-left h2 {
+  color: #555555;
+  width: 90%;
+  border-bottom: dashed #555555;
+  padding-bottom: 15px;
+}
+
+.intro {
+  color: #cc0000;
+  font-style: italic;
+  line-height: 1.4;
+  text-shadow: 3px 4px 3px green;
+}
+
+.right {
+  height: 80%;
+  width: 30%;
+  background: #f6f6f6;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.right h2 {
+  color: #555555;
+  padding-bottom: 15px;
+  border-bottom: dashed #555555;
+}
+
+.right img {
+  width: 100%;
+}
+
+.right a {
+  font-weight: bolder;
+  text-decoration: none;
+  float: right;
+  text-align: right;
+  color: #18324f;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input {
+}
+form textarea {
+  width: 330px;
+  padding: 5px;
+}
+
+textarea {
+  height: 80px;
+}
+
+.btn {
+  width: 60px;
+  margin-top: 10px;
+}
+.footer {
+  background: #2c4f7c;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.footer span {
+  color: #c7d4e2;
+}
